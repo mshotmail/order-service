@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWildFlyController {
 
 
-    @RequestMapping("hello")
+    @RequestMapping("order")
     public String sayHello(){
         return ("Hello, from orderservice");
     }
