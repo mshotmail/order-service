@@ -11,4 +11,10 @@ public class HelloWildFlyController {
     public String sayHello(){
         return ("Hello, from orderservice");
     }
+
+
+    @RequestMapping("hello123")
+    public String sayHello123(){
+        return ("Hello123, from orderservice");
+    }
 }
