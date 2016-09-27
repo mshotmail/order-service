@@ -11,8 +11,8 @@ public class HelloWildFlyController {
 
     @RequestMapping("order")
     public String sayHello(){
-	String ret = " " + System.getenv("BACKGROUND_msg"); 
-        return ("Hello, from orderservice : " + ret);
+	      String ret = " " + System.getenv("BACKGROUND_msg");
+        return ("Ordering something here : " + ret);
     }
 
 
