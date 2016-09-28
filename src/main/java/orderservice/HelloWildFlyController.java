@@ -11,7 +11,8 @@ public class HelloWildFlyController {
 
     @RequestMapping("order")
     public String sayHello(){
-        return ("This is the ACME order service"); 
+        String dbName = System.getenv("DB_NAME");
+        return ("This is the ACME order service for " + dbName);
     }
 
 
